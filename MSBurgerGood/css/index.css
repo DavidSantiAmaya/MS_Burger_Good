@@ -119,11 +119,34 @@ body{
 
 .row-background {
     background-image: url('../img/burger-with-fries.jpg');
+    
+}
+
+.backgroundfondo1{
+    background-image: url('../img/burger-with-fries.jpg');
     background-size: 25% 90%;
     background-position: right 50% center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 720px;
+}  
+
+.backgroundfondo2{
+    background-image: url('../img/high-angle-burger-with-fries-table.jpg');
+    background-size: 25% 90%;
+    background-position: right 50% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+}
+
+.backgroundfondo3{
+    background-image: url('../img/high-angle-delicious-burger-plate.jpg');
+    background-size: 25% 90%;
+    background-position: right 50% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
 }
 
 .offer-section {
@@ -158,23 +181,31 @@ body{
     text-align: center;
 }
 
+.carousel-inner{
+    width: 100%;
+    height: 720px;
+}
 .carousel-item-1 {
+    height: 720px;
     background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
     background-size: cover;
     background-position: left, right;
 }
 
 .carousel-item-2 {
-    background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
+    height: 720px;
+    background: linear-gradient(to left, transparent 50%, #be00fe 50%), url('../img/4K\ Wallpapers\ For\ Desktop\ _\ Laptop.jpeg');
     background-size: cover;
     background-position: left, right;
 }
 
 .carousel-item-3 {
-    background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
+    height: 720px;
+    background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/artistic-sculpture-subway.jpg');
     background-size: cover;
     background-position: left, right;
 }
+
 
 .carousel-custom-size {
     width: 100%;
