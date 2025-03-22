@@ -29,10 +29,9 @@ body{
 }
 
 /*LOGO DE MR BURGUER GOOD*/
-.imgLogo{
+.imgLogo{    
     padding-right: 300px;
     padding-top: 5px;
-    /* width: 200px */
 }
 
 /*LETRAS RESALTADAS DE MR BURGUER GOOD*/
@@ -92,9 +91,9 @@ body{
 
 /*BOTONES "FIGURAS"*/
 .btnFiguras{
-    background-color: #EA5500;
-    border: #EA5500;
-    color: #ffffff;
+    background-color: #F0B823;
+    border: #F0B823;
+    color: #000;
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
@@ -102,11 +101,22 @@ body{
     width: 50px;
     transition: 0.2s;
 }
-
-.btnFiguras:hover{
+.btnFiguras1{
     background-color: #F0B823;
     border: #F0B823;
-    color: #000000;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    transition: 0.2s;
+}
+
+.btnFiguras:hover{
+    background-color: #EA5500;
+    border: #EA5500;
+    color: #fff;
 }
 
 /*ANUNCIO 1*/
@@ -160,21 +170,21 @@ body{
 }
 
 
-.bg-split {
+/* .bg-split {
     background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/carousel_1.jpg');
     background-size: cover;
     background-position: left, right;
     color: #fff;
     padding: 50px 20px;
-}
+} */
 
 .row-background {
-    background-image: url('../img/burger-with-fries.jpg');
+    background-image: url('../img/burger.jpg');
     
 }
 
 .backgroundfondo1{
-    background-image: url('../img/burger-with-fries.jpg');
+    /* background-image: url('../img/burger-with-fries.jpg'); */
     background-size: 25% 90%;
     background-position: right 50% center;
     background-repeat: no-repeat;
@@ -238,7 +248,7 @@ body{
 }
 .carousel-item-1 {
     height: 720px;
-    background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
+    background: url('../img/ImgApp2.png');
     background-size: cover;
     background-position: left, right;
 }
