@@ -4,21 +4,20 @@ html{
 }
 
 header{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #EA5500;
     padding: 0px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 50px;
+    padding-top: 5px;
 }
 
 header table{
     width: 100%;
     border-collapse: collapse;
     color: blue;
-}
-
-nav{
-    background: linear-gradient(to right, #ffea00, #800080);
-    padding: 1px 0;
 }
 
 body{
@@ -34,29 +33,21 @@ body{
     height: 100vh;
 }
 
-.btn-outline-primary {
-    color: #ffffff;
-    border: none;
+/*LOGO DE MR BURGUER GOOD*/
+.imgLogo{
+    padding-right: 300px;
+    padding-top: 5px;
 }
 
-.btn-outline-primary i{
-    color: #ffea00;
-    border: none;
+/*LETRAS RESALTADAS DE MR BURGUER GOOD*/
+.r{
+    color: #F0B823;
 }
 
-.btn-outline-primary:hover i{
-    background-color: #800080;
-    color: #ffea00;
-}
- 
-.btn-btn-outline-primary {
-    background-color: #800080;
-    color: #ff0000;
-}
-
+ /*BOTON "PRIMER FONDO MAIN"*/
 .bg-image {
-    background-color: #000;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/burguer_media.png');
+
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -65,6 +56,59 @@ body{
     margin-left: 0px ;
     margin-right: 0px;
 }  
+
+/*BOTONES "BARRA DE NAVEGACIÓN"*/
+.btnMenu{
+    background-color: #EA5500;
+    border: #EA5500;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btnMenu:hover{
+    background-color: #F0B823;
+    border: #F0B823;
+    color: #000000;
+}
+
+/*BOTÓN PÁGINA ACTUAL*/
+.btnMenu1{
+    background-color: #ca4b02;
+    border: #ca4b02;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btnMenu1:hover{
+    background-color: #F0B823;
+    border: #F0B823;
+    color: #000000;
+}
+
+/*BOTONES "FIGURAS"*/
+.btnFiguras{
+    background-color: #EA5500;
+    border: #EA5500;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.btnFiguras:hover{
+    background-color: #F0B823;
+    border: #F0B823;
+    color: #000000;
+}
+
+/*ANUNCIO 1*/
 .selection_1{
     width: 100px;
 }
@@ -76,6 +120,8 @@ body{
     margin-right: 700px;
     width: 50%;
     float: left;
+    padding-left: 100px;
+
 }
 
 .espacio_1 h1{ 
@@ -84,24 +130,33 @@ body{
 }
 .espacio_1 p{  
     margin-right: 250px;
+    padding: 20px;
 }
 
 .espacio_1 button{
-    margin: 0 auto;
-    margin-left: 9%;
+    margin-left: 40px;
     display: block;
     width: 50%;
 }
-.espacio_1 button:hover{
-    background-color: #800080;
-    color: #ffea00; 
+
+/*BOTON "ORDENA YA"*/
+.btn1{
+    background-color: #F0B823;
+    border: #F0B823;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
 }
-.text-purple {
-    color: #800080;
+.btn1:hover{
+    background-color: #EA5500;
+    border: #EA5500;
+    color: #ffffff;
 }
 
 .bg-custom {
-    background-color: #be00fe;
+    background-color: #EA5500;
     background-image: url('../img/custom-background.jpg');
     background-size: cover;
     background-position: center;
@@ -217,17 +272,3 @@ body{
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
