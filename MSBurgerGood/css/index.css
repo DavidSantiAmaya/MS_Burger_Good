@@ -5,11 +5,17 @@ html{
 
 header{
     background-color: #F0B823;
+    background-color: #F0B823;
     padding: 0px 0;
     text-align: center;
     justify-items: center;
     position: fixed;
+    justify-items: center;
+    position: fixed;
     width: 100%;
+    z-index: 1000;
+    height: 70px;
+    padding-top: 5px;
     z-index: 1000;
     height: 70px;
     padding-top: 5px;
@@ -19,6 +25,7 @@ body{
     margin: 0;
     background-color: #000000;
  }
+/* RESPONSIVE */
 /* RESPONSIVE */
  section{
     color: #ffffff;
@@ -41,6 +48,8 @@ body{
 
  /*BOTON "PRIMER FONDO MAIN"*/
 .bg-image {
+    background-image: url('../img/burguer.png');
+
     background-image: url('../img/burguer.png');
 
     background-size: cover;
@@ -133,6 +142,8 @@ body{
     float: left;
     padding-left: 100px;
 
+    padding-left: 100px;
+
 }
 
 .espacio_1 h1{ 
@@ -142,9 +153,11 @@ body{
 .espacio_1 p{  
     margin-right: 250px;
     padding: 20px;
+    padding: 20px;
 }
 
 .espacio_1 button{
+    margin-left: 40px;
     margin-left: 40px;
     display: block;
     width: 50%;
