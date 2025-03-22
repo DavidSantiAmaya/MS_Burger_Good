@@ -4,27 +4,22 @@ html{
 }
 
 header{
-    background-color: #EA5500;
+    background-color: #F0B823;
     padding: 0px 0;
     text-align: center;
+    justify-items: center;
     position: fixed;
     width: 100%;
     z-index: 1000;
-    height: 50px;
+    height: 70px;
     padding-top: 5px;
-}
-
-header table{
-    width: 100%;
-    border-collapse: collapse;
-    color: blue;
 }
 
 body{
     margin: 0;
     background-color: #000000;
  }
-
+/* RESPONSIVE */
  section{
     color: #ffffff;
     display: flex;
@@ -37,6 +32,7 @@ body{
 .imgLogo{
     padding-right: 300px;
     padding-top: 5px;
+    /* width: 200px */
 }
 
 /*LETRAS RESALTADAS DE MR BURGUER GOOD*/
@@ -46,7 +42,7 @@ body{
 
  /*BOTON "PRIMER FONDO MAIN"*/
 .bg-image {
-    background-image: url('../img/burguer_media.png');
+    background-image: url('../img/burguer.png');
 
     background-size: cover;
     background-position: center;
@@ -59,37 +55,40 @@ body{
 
 /*BOTONES "BARRA DE NAVEGACIÓN"*/
 .btnMenu{
-    background-color: #EA5500;
-    border: #EA5500;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.btnMenu:hover{
     background-color: #F0B823;
     border: #F0B823;
     color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.btnMenu:hover{
+    background-color: #EA5500;
+    border: #EA5500;
+    color: #ffffff;
+    transition: 0.2s;
+
 }
 
 /*BOTÓN PÁGINA ACTUAL*/
 .btnMenu1{
-    background-color: #ca4b02;
-    border: #ca4b02;
+    background-color: #EA5500;
+    border: #EA5500;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
     padding: 5px;
 }
 
-.btnMenu1:hover{
+/* .btnMenu1:hover{
     background-color: #F0B823;
     border: #F0B823;
     color: #000000;
-}
+} */
 
 /*BOTONES "FIGURAS"*/
 .btnFiguras{
@@ -99,7 +98,9 @@ body{
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+    padding: 10px;
     width: 50px;
+    transition: 0.2s;
 }
 
 .btnFiguras:hover{
@@ -148,21 +149,16 @@ body{
     font-weight: bold;
     border-radius: 10px;
     padding: 5px;
+    transition: 0.2s;
 }
 .btn1:hover{
     background-color: #EA5500;
     border: #EA5500;
     color: #ffffff;
+    transition: 0.2s ;
+    
 }
 
-.bg-custom {
-    background-color: #EA5500;
-    background-image: url('../img/custom-background.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 0%;
-    margin: 0%;
-}
 
 .bg-split {
     background: linear-gradient(to left, #be00fe 50%, transparent 50%), url('../img/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
