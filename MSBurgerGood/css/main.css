@@ -10,17 +10,11 @@ header{
     text-align: center;
     justify-items: center;
     position: fixed;
-    justify-items: center;
-    position: fixed;
     width: 100%;
     z-index: 1000;
     height: 70px;
     padding-top: 5px;
-    z-index: 1000;
-    height: 70px;
-    padding-top: 5px;
 }
-
 body{
     margin: 0;
     background-color: #000000;
