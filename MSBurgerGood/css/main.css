@@ -304,5 +304,14 @@ body{
     border-left: 15px solid #EA5500; /* Borde izquierdo naranja */
     border-right: 15px solid #F0B823; /* Borde derecho amarillo */
     border-bottom: 20px solid #F0B823; /* Borde derecho amarillo */
+
+}
+.image-background:hover{
+    animation: crecer 0.2s ease-in-out forwards;
+}
+
+@keyframes crecer{
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
 }
 
