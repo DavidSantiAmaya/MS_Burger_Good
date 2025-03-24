@@ -37,12 +37,12 @@
 .col-8 {
   display: flex;
   justify-content: center;
-  width: 100%; /* Ocupa el 70% de la pantalla */
-  margin-left: 25%; /* Deja un margen del 30% a la izquierda */
+  width: 100%; /* Ocupa el 100% de la pantalla */
+  margin-left: 25%; /* Deja un margen del 25% a la izquierda */
 }
 
 .g-0 {
-  border-radius: 25px; /* Color de fondo morado */
+  border-radius: 25px; /*bordes redondeados*/
 }
 
 .img-fluid {
@@ -54,12 +54,12 @@
 
 .card-body {
   padding: 20px;
-  color: #fff; /* Color de texto blanco */
+  color: #fff; /*Color de texto blanco*/
 }
 
 .card-title {
   font-weight: bold;
-  color: #000; /* Color de texto dorado */
+  color: #000; /*Color de texto negro*/
 }
 
 .card-text {
@@ -74,6 +74,6 @@
 }
 
 .text-body-secondary{
-  color: #F0B823; /* Color de texto dorado */
+  color: #F0B823; /*Color de texto dorado*/
 }
 
