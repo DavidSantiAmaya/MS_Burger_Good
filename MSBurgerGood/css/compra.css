@@ -3,8 +3,6 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .recibo{
@@ -14,3 +12,17 @@
     justify-content: center;
     left: 50%;
 }
+.producto>.btn{
+    font-weight: bold;
+    background-color: #F0B823;
+  }
+  .producto>.btn:hover{
+    background-color: #EA5500;
+  }
+  .btnrecibo{
+    font-weight: bold;
+    background-color: #F0B823;
+  }
+  .btnrecibo:hover{
+    background-color: #EA5500;
+  }
