@@ -32,7 +32,6 @@ body{
 /*LOGO DE MR BURGUER GOOD*/
 .imgLogo{    
     padding-right: 300px;
-    padding-top: 5px;
 }
 
 /*LETRAS RESALTADAS DE MR BURGUER GOOD*/
@@ -155,13 +154,15 @@ body{
     font-weight: bold;
     border-radius: 10px;
     padding: 5px;
+    width: 50%;
     transition: 0.2s;
 }
 .btn1:hover{
     background-color: #EA5500;
     border: #EA5500;
     color: #ffffff;
-    transition: 0.2s ;
+    transition: 0.2s;
+    width: 50%;
     
 }
 
@@ -170,9 +171,23 @@ body{
     font-weight: bold;
 }
 
+.titulo1{
+    font-size: 80px;
+    font-weight: bold;
+    width: 100%;
+    float: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
 .parrafito{
     font-size: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.parrafito1{
+    font-size: 20px;
     margin-bottom: 50px;
 }
 
@@ -315,3 +330,6 @@ body{
     to { transform: scale(1.1); }
 }
 
+.biIcono{
+    padding-right: 10px;
+}

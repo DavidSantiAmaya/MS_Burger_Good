@@ -78,22 +78,25 @@
                                     <div class="modal-dialog modal-dialog-centered">
                                       <div class="modal-content" style="background-color: rgba(0, 0, 0, 0.55);">
                                         <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">hola descage la apgina </h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel" style="margin-right: 10px;">Proceso de descarga...</h1>
+                                          <div class="spinner-border" role="status">
+                                            <span class="visually-hidden">Loading...</span>
+                                          </div>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" style="color: #fff;" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body d-flex align-items-center">
                                             <div class="col-md-6 text-center">
                                                 <img src="img/logo_app.png" style="background-color: white; width: 145px; height: 145px; border-radius: 25%;">
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Show a second modal and hide this one with the button below.</p>
-                                                <button class="btn btn-warning" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                                                <p>Descarga Finalizada</p>
+                                                <button class="btn btn-warning" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Abrir</button>
                                             </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                  <button class="btn btn-warning" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Open first modal</button>
+                                  <button class="btn1" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Obtener ahora</button>
                             </div>
                         </div>
                         <div class="col-md-1">
@@ -104,19 +107,10 @@
             <div class="carousel-item carousel-item-2 bg-cover">
                 <div class="card bg-transparent border-0">
                     <div class="row g-0 align-items-center backgroundfondo2">
-                        <div class="col-md-6">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body text-white">
-                                <h2 class="card-title fw-bold">¡cheese lovers!</h2>
-                                <div class="d-flex align-items-center">
-                                    <div class="col-2"><span class="large-text">$10</span></div>
-                                    <div class="col">
-                                        <p class="card-text">Dos hamburguesa con boble queso,boble carne y con un pan de
-                                            Mantquilla.</p>
-                                    </div>
-                                </div>
-                                <button class="btn btn-warning">Menú</button>
+                        <div class="col text-center">
+                            <div class="card-body text-center">
+                                <h2 class="titulo1">Descubre nuestro menú con las <br> hamburguesas más exclusivas <br> y recetas únicas</h2>
+                                <button class="btn1" onclick="location.href='html/menu.html'">Menú</button>
                             </div>
                         </div>
                     </div>
@@ -125,19 +119,11 @@
             <div class="carousel-item carousel-item-3 bg-cover">
                 <div class="card bg-transparent border-0">
                     <div class="row g-0 align-items-center backgroundfondo3">
-                        <div class="col-md-6">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body text-white">
-                                <h2 class="card-title fw-bold">¡cheese lovers!</h2>
-                                <div class="d-flex align-items-center">
-                                    <div class="col-2"><span class="large-text">$10</span></div>
-                                    <div class="col">
-                                        <p class="card-text">Dos hamburguesa con boble queso,boble carne y con un pan de
-                                            Mantquilla.</p>
-                                    </div>
+                        <div class="col text-center">
+                            <div class="card-body text-center">
+                                <h2 class="titulo1">Consulta nuestros <br> puntos de atención y <br> horarios de servicio</h2>
+                                <button class="btn1" onclick="location.href='html/locales.html'">Haz click aquí</button>
                                 </div>
-                                <button class="btn btn-warning">Menú</button>
                             </div>
                         </div>
                     </div>
@@ -157,8 +143,8 @@
     <section class="container text-center  my-5">
 
         <div class="row justify-content-center">
-            <h1 class="titulo">TOP PICKS</h1>
-            <p class="parrafito">Las preferidas por el público</p>
+            <h1 class="titulo" style="margin-top: 100px;">TOP PICKS</h1>
+            <p class="parrafito1">Las preferidas por el público</p>
             <div class="col-md-3 mb-3 py-4 image-background" style="padding-top: 20px;">
                 <img src="img/MR. Classic.png" alt="MR. Classic" class="img-fluid rounded"
                     onclick="location.href='html/menu.html'">
@@ -181,14 +167,12 @@
     </section>
 
     <footer class="footer bg-dark text-white text-center py-4">
-        <p>Calle 67 #67-Villa Perritos</p>
-        <p><i class="bi bi-envelope"></i> mr.burgergood@gmail.com</p>
-        <p><i class="bi bi-instagram"></i> @mr.burgergood</p>
-        <button class="btn btn-outline-light" onclick="location.href='html/buzon.html'">Buzón de sugerencias</button>
+        <p><i class="biIcono bi-geo-alt"></i>Calle 67 #67-Villa Perritos</p>
+        <p><i class="biIcono bi-envelope"></i>mr.burgergood.oficial@gmail.com</p>
+        <p><i class="biIcono bi-instagram"></i> @mrburgergood</p>
+        <button class="btn btn-outline-light" onclick="location.href='html/buzon.html'"><i class="biIcono bi-mailbox"></i>Buzón de sugerencias</button>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
