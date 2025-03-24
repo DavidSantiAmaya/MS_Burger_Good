@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: column;
 }
-
+ /*TÍTULO LUGAR DEL LOCAL*/
 .tituloLocal{
     color: #ffffff;
     font-weight: bolder;
@@ -15,10 +15,37 @@
     align-items: center;
 }
 
+/*FOTO DEL LOCAL*/
 .localFoto{
     top: 100px; 
     left: 15px; 
     width: 100%; 
     padding-right: 15px; 
-    z-index: 1000;
+    border-radius: 5%;
+}
+
+/*INFO DEL LOCAL*/
+.texto1{
+    color: #ffffff;
+    font-weight:bolder;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 80px;
+}
+
+#texto2{
+    margin-left: 82px;
+}
+
+.texto{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.biLocal {
+    margin-right: 30px;
+    color: #EA5500;
 }
