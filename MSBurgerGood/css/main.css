@@ -250,6 +250,10 @@ body{
     padding-right: 20px;
 }
 
+.text-center{
+    font-weight: bold;
+}
+
 .offer-section {
     color: #ffffff;
     padding: 20px;
@@ -323,9 +327,9 @@ body{
     background-color: #000000; /* Color de fondo negro */
     border-radius: 10px;
     text-align: center;
-    border-top: 20px solid #ffa600; /* Borde izquierdo naranja */;
-    border-left: 15px solid #FFA500; /* Borde izquierdo naranja */
-    border-right: 15px solid #FFFF00; /* Borde derecho amarillo */
-    border-bottom: 20px solid #FFFF00; /* Borde derecho amarillo */
+    border-top: 20px solid #EA5500; /* Borde izquierdo naranja */;
+    border-left: 15px solid #EA5500; /* Borde izquierdo naranja */
+    border-right: 15px solid #F0B823; /* Borde derecho amarillo */
+    border-bottom: 20px solid #F0B823; /* Borde derecho amarillo */
 }
 

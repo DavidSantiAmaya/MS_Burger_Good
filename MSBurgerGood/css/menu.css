@@ -16,7 +16,7 @@
   height: calc(100% - 100px - 220px); 
   overflow-y: auto;
   padding-right: 15px; 
-  background-color: #ffffff4d; 
+  background-color: #1f1c1b; 
   z-index: 1000;
 }
 
@@ -42,9 +42,7 @@
 }
 
 .g-0 {
-  border-radius: 25px;
-  background-color: #4B306A; /* Color de fondo morado */
-
+  border-radius: 25px; /* Color de fondo morado */
 }
 
 .img-fluid {
@@ -60,13 +58,19 @@
 }
 
 .card-title {
-  font-size: 1.5em;
   font-weight: bold;
-  color: #F0B823; /* Color de texto dorado */
+  color: #000; /* Color de texto dorado */
 }
 
 .card-text {
-  font-size: 1.2em;
+  font-weight: medium;
+  font-size: 20px;
+  color: #000000;
+}
+
+.card-text1{
+  font-size: 15px;
+  color: #000000;
 }
 
 .text-body-secondary{
